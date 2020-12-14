@@ -14,31 +14,32 @@
   <body>
 
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="#home"><img src="./assets/Logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#about">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Our Team</a>
+                    <a class="nav-link" href="#team">Our Team</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#contact">Contact Us</a>
                   </li>
-                </ul>
-                    <a class="btn btn-md btn-primary" href="#">Log In</a>
-              
+                  <li class="nav-item">
+                    <a class="btn btn-md btn-primary" href="#">Log in</a>
+                  </li>
+                </ul>    
             </div>
           </nav>
     
@@ -46,8 +47,8 @@
 
       <!-- Hero Section -->
 
-      <div id="heroBg" class="container-fluid">
-          <div class="container">
+      <div id="home" class="container-fluid heroBg">
+          <div class="container align-middle">
               <div class="row pt-5 pb-5">
                   <div class="col-lg-6 col-md-12 col-sm-12 text-white mt-5 mb-5">
                       <h1>Welcome!!</h1>
@@ -57,7 +58,7 @@
                             IAS compliant bank confirmation report: just as you know it. </p>
                             <p>Stress-free. Low cost. Prompt</p> <br> 
                             <p>Get started by creating an account</p> 
-                            <a class="btn btn-lg btn-primary" href="">Create an account</a>
+                            <a class="btn btn-lg btn-outline-light" href="">Create an account</a>
                   </div>
                   <div class="col-lg-6 col-md-12 col-sm-12 mt-5 mb-5">
                     <img class="img-fluid" src="./assets/Monitor.svg">
@@ -68,9 +69,9 @@
 \
 
 <!-- About Us Section -->
-<div class="container mt-5 mb-5 pt-5 pb-5">
+<div id="about" class="container mt-5 mb-5 pt-5 pb-5">
     <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 pt-5">
+        <div class="col-lg-6 col-md-6 col-sm-12">
             <h1>About Us</h1>
             <p>At Confirmation Services®, we provide bank confirmation 
                 report to auditors within 24 hours, in a secured manner 
@@ -78,20 +79,20 @@
                 Our service is web-based and can be accessed on your 
                 laptop or handheld devices.</p>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <img class="img-fluid img-mitigate" src="./assets/About us.svg">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <img class="img-fluid" src="./assets/About us.svg">
         </div>
     </div>
 </div>
 
 
 <!-- Our Services Section -->
-<div class="container mt-5 mb-5 pt-5 pb-5">
+<div id="services" class="container mt-5 mb-5 pt-5 pb-5">
     <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <img class="img-fluid img-mitigate" src="./assets/Services.svg">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <img class="img-fluid" src="./assets/Services.svg">
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 pt-5">
+        <div class="col-lg-6 col-md-6 col-sm-12">
             <h1>Our Services</h1>
             <p>We provide electronic auditors’ confirmation report. 
                 Auditors no longer need to send physical letters to banks 
@@ -137,12 +138,12 @@
 
 
 <!-- Our Team -->
-<div class="container mt-5 mb-5 pt-5 mb-5">
+<div id="team" class="container mt-5 mb-5 pt-5 mb-5">
     <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <img class="img-fluid img-mitigate" src="./assets/Our Team.svg">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <img class="img-fluid" src="./assets/Our Team.svg">
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 pt-5">
+        <div class="col-lg-6 col-md-6 col-sm-12">
             <h1>Our Team</h1>
             <p>Our team comprises of highly qualified individuals with the knowledge, skill and attitude to ensure that we deliver on our commitment to provide you with stress-free, cost-effective, prompt and reliable electronic bank confirmation services. We are only a phone call, chat or email away to provide support whenever you need it.</p>
         </div>
@@ -151,7 +152,7 @@
 
 <div class="container pt-5 pb-5">
     <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4 col-sm-6 mt-3">
             <div class="card text-center">
                 <div class="card-body">
                     <img class="img-fluid img-mitigate-2 pb-5" src="./assets/img 1.png">
@@ -161,40 +162,41 @@
               </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4 col-sm-6 mt-3">
             <div class="card text-center">
                 <div class="card-body">
-                    <img class="img-fluid img-mitigate-2 pb-5" src="./assets/img 1.png">
-                  <h5>Dasola Ojuroye </h5>
+                    <img class="img-fluid img-mitigate-2 pb-5" src="./assets/Olawale.png">
+                  <h5>Olawale Gazal </h5>
                   <p>Chief Executive Officer</p>
                 </div>
               </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4 col-sm-6 mt-3">
             <div class="card text-center">
                 <div class="card-body">
-                    <img class="img-fluid img-mitigate-2 pb-3" src="./assets/img 1.png">
-                  <h5>Dasola Ojuroye </h5>
-                  <p>Chief Executive Officer</p>
+                    <img class="img-fluid img-mitigate-2 pb-5" src="./assets/Abiola.png">
+                  <h5>Abiola Lawal  </h5>
+                  <p>Head, Customer Support</p>
                 </div>
               </div>
         </div>
+
     </div>
 </div>
 
 
 <!-- Partners -->
 
-<div id="heroBg" class="container-fluid mt-5 mb-5 pt-5 pb-5">
+<div id="partners" class="container-fluid heroBg mt-5 mb-5 pt-5 pb-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 text-white">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-white">
                 <h3>Our Partners</h3>
                 <p>Alone we can do so little, together we can
                     do so much.</p>
             </div>
-            <div class="col-lg-8 col-md-6 col-sm-12">
+            <div class="col-lg-8 col-md-8 col-sm-12">
                     <img src="./assets/paystack.png">
                     <img src="./assets/providus.png">
                     <img src="./assets/flutter.png"> 
@@ -205,9 +207,9 @@
 
 <!-- Contact Us -->
 
-<div class="container mt-5 pt-5 mb-5 pb-5">
+<div id="contact" class="container mt-5 pt-5 mb-5 pb-5">
     <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
             <h1>Contact Us</h1>
             <p>Please leave us a question or suggestion.</p>
 
@@ -238,9 +240,8 @@
         
             </form>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.528448210874!2d3.3476755152225075!3d6.58103299524052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b92108e63024f%3A0x5699588b9bcd94e6!2s6%20Esugbayi%20St%2C%20Ikeja%20GRA%2C%20Lagos!5e0!3m2!1sen!2sng!4v1607954862370!5m2!1sen!2sng" width="600" height="260" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
+        <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.528448210874!2d3.3476755152225075!3d6.58103299524052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b92108e63024f%3A0x5699588b9bcd94e6!2s6%20Esugbayi%20St%2C%20Ikeja%20GRA%2C%20Lagos!5e0!3m2!1sen!2sng!4v1607979571832!5m2!1sen!2sng" width="320" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <p class="pt-5">
                 <img src="./assets/location.png"> 
                 6, Esugbayi Street Ikeja GRA Lagos          
@@ -261,28 +262,25 @@
 
 
 <!-- Footer -->
-<div id="heroBg" class="container-fluid text-white">
+<div class="container-fluid heroBg text-white pt-5 pb-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <img src="./assets/Logo.png">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat laborum, impedit libero nemo incidunt possimus error voluptates quae unde exercitationem.</p>
+                <img src="./assets/Logo-white.png">
+                <p>Obtain your bank circularisation report electronically within 24 hours.
+                    Signed by authorized Bank signatories.</p>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <ul>
-                    <li>About Us</li>
-                    <li>Our Team</li>
-                    <li>Services</li>
-                    <li>Contact Us</li>
-                </ul>
+                <p><a href="#about" class="text-white">About Us</a></p>
+                <p><a href="#team" class="text-white">Our Team</a></p>
+                <p><a href="#services" class="text-white">Service</a></p>
+                <p><a href="#contact" class="text-white">Contact Us</a></p>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <ul>
-                    <li>How it works</li>
-                    <li>Partners</li>
-                    <li>Privacy Policy</li>
-                    <li>Terms and conditions</li>
-                </ul>
+                <p><a href="#" class="text-white">How it works</a></p>
+                <p><a href="#partners" class="text-white">Partners</a></p>
+                <p><a href="#" class="text-white">Privacy Policy</a></p>
+                <p><a href="#" class="text-white">Terms and Conditions</a></p>
             </div>
         </div>
     </div>
