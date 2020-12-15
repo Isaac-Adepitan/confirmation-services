@@ -18,7 +18,15 @@ li, a, p {
     color: 121212;
     text-decoration: none;
     line-height: 1.8;
+}
 
+.small {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 0.8em;
+    color: 121212;
+    text-decoration: none;
+    line-height: 1.8;
 }
 
 h1 {
