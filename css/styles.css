@@ -2,6 +2,24 @@
 
 
 .primary, .btn-primary {
+    background-color: #0082BC;
+    color: #fff;
+    border: #fff;
+}
+
+.primary, .btn-primary:hover {
+    background-color: #0082BC;
+    color: #fff;
+    border: #fff;
+}
+
+.btn-new {
+    background-color: #00618C;
+    color: #fff;
+    border: #fff;
+}
+
+.btn-new:hover {
     background-color: #00618C;
     color: #fff;
     border: #fff;
@@ -11,13 +29,17 @@ html {
     scroll-behavior: smooth;
 }
 
-li, a, p {
+li, a, p, label {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 1em;
     color: 121212;
     text-decoration: none;
     line-height: 1.8;
+}
+
+.smalllh {
+    line-height: 1.4;
 }
 
 .small {
@@ -47,13 +69,25 @@ h3 {
     text-decoration: none;
 }
 
-.heroBg {
-    background-color: #00618C;
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.5;
+    color: 121212;
+    text-decoration: none;
 }
 
+.heroBg {
+    background-color: #0082BC;
+}
+
+.heroBg2{
+    background-color: #0082BC;
+}
 .img-mitigate {
-    max-width: 450px;
-    max-height: 450px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .img-mitigate-2 {
