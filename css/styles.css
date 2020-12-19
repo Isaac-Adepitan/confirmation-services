@@ -16,13 +16,18 @@
 .btn-new {
     background-color: #00618C;
     color: #fff;
-    border: #fff;
+    border-style: solid;
+    border-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
 }
 
 .btn-new:hover {
-    background-color: #00618C;
-    color: #fff;
+    background-color: #fff;
+    color: #00618C;
     border: #fff;
+    border-style: solid;
+    border-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
 }
 
 html {
@@ -82,12 +87,9 @@ h5 {
     background-color: #0082BC;
 }
 
-.heroBg2{
-    background-color: #0082BC;
-}
 .img-mitigate {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .img-mitigate-2 {
