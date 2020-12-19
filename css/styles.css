@@ -34,6 +34,9 @@ html {
     scroll-behavior: smooth;
 }
 
+#partners {
+    margin-bottom: 50px;
+}
 li, a, p, label {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -43,7 +46,7 @@ li, a, p, label {
     line-height: 1.8;
 }
 
-.smalllh {
+.smallh {
     line-height: 1.4;
 }
 
@@ -104,4 +107,11 @@ h5 {
 .navbar-nav > li {
     padding-right: 20px;
     padding-left: 20px;
+}
+
+@media (max-width: 767px) {
+	.reverse-columns {
+		display: flex;
+		flex-direction: column-reverse;
+	}
 }
